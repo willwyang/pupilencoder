@@ -15,8 +15,8 @@ The machine learning pipeline for PupilEncoder can be summarized as follows:
 - Feature Engineering: Neural firing rates were estimated from spike data using Kernel Smoothing, i.e. by convolving the spike train with a boxcar function
 - Model Setup: As a baseline, I used an RNN with 1 hidden layer, bidirectionality, tanh nonlinearity and a softplus activation function
 - Training: The model was trained with an Adam optimizer
-- Hyperparameter Optimization: The model was tuned using a Tree-based Parzen Estimator (TPE) via HyperOpt
-- Model Interpretation: Feature attribution was done using the Integrated Gradients method, an axiomatic attribution method (see [Sundararajan et al. (2017)](http://proceedings.mlr.press/v70/sundararajan17a.html)
+- Hyperparameter Optimization: The model was tuned using a Tree-based Parzen Estimator (TPE) called HyperOpt
+- Model Interpretation: Feature attribution was done using the Integrated Gradients method, an axiomatic attribution method (see [Sundararajan et al. (2017)](http://proceedings.mlr.press/v70/sundararajan17a.html))
 
 ---
 William Yang<sup>1*</sup>
