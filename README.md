@@ -3,7 +3,7 @@
 # PupilEncoder: A Neural Encoding Model for Mouse Pupilometry
 PupilEncoder is an RNN-based seq2seq neural encoding model for mouse pupilometry. In a nutshell, PupilEncoder predicts sequences of whole-trial neural firing rates in the mouse midbrain using just pupil position (horizontal and vertical) as well as pupil dilation (area). 
 
-PupilEncoder was developed as one component of my group's research project during [Neuromatch Academy (Deep Learning)](https://academy.neuromatch.io/courses#h.2no8o2qptswv), which involved developing and comparing multiple deep learning methods for encoding neural representations. The key finding from that project that the RNN-based seq2seq method (here named PupilEncoder) outperformed all other methods, being able to account for **over 46% of variance** in neural activity.
+PupilEncoder was developed as one component of my group's research project during [Neuromatch Academy (Deep Learning)](https://academy.neuromatch.io/courses#h.2no8o2qptswv), which involved developing and comparing multiple deep learning methods for encoding neural representations. The key finding from our project was that the RNN-based seq2seq method (here released as PupilEncoder) outperformed all other methods, being able to account for **over 46% of variance** in neural activity.
 
 Here, I provide a Jupyter notebook with sample code demonstrating the development process, including data processing, feature engineering, training, hyperparameter optimization, and testing.
 
